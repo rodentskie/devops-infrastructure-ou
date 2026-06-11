@@ -39,7 +39,7 @@ inputs = {
       tags      = local.tags
     }
     klaro-dev = {
-      name      = "sandbox"
+      name      = "klaro-dev"
       email     = "aws+klaro-dev@gmail.com"
       parent_id = dependency.ou.outputs.organizational_units["sandbox"].id
       tags      = local.tags
