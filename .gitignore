@@ -43,3 +43,8 @@ Thumbs.db
 *.swp
 *.swo
 *~
+
+
+# terragrunt
+.terragrunt-cache
+.terraform.lock.hcl
