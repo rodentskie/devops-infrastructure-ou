@@ -15,7 +15,7 @@ locals {
 }
 
 dependency "ou" {
-  config_path = find_in_parent_folders("applications/modules/ou")
+  config_path = find_in_parent_folders("modules/ou")
 
   mock_outputs_allowed_terraform_commands = ["validate", "init", "plan"]
   mock_outputs = {
